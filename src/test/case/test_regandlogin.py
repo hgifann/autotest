@@ -42,7 +42,7 @@ def test_checklogin(test_register):
     s=login.checkmethord("get",url,payload)
     err_code=s["data"]["err_code"]
     assert err_code   ==0
-# =================
+# # =================
 
 # 8个用例
 # @pytest.mark.parametrize('url,register_service,login_service,username,password',excelinfo)

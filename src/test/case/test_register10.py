@@ -9,9 +9,9 @@ import logging
 filename=r"C:\Users\THTF\PycharmProjects\autotest\data\register.xlsx"
 excelinfo=src.utils.testjson1.Read_excel().read_excel(filename)
 
-class Test_login:
+class Test_register:
     @pytest.mark.parametrize('url,service,username,password',excelinfo)
-    def test_login(self,url,service,username,password):
+    def test_register(self,url,service,username,password):
 
         payload = {'service':service,'username':username,'password':password,'is_allow_many':"1",'app_key':"784DBD349CE644ABD3684A562C159585"}
         login=src.test.common.testrequest.TestRequest()
