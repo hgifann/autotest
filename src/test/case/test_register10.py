@@ -6,7 +6,7 @@ import pytest
 import logging
 #以class调用方式  class类名必须以“Test_xxx"开头，才能识别
 
-filename=r"C:\Users\THTF\PycharmProjects\autotest5\data\register.xlsx"
+filename=r"C:\Users\THTF\PycharmProjects\autotest\data\register.xlsx"
 excelinfo=src.utils.testjson1.Read_excel().read_excel(filename)
 
 class Test_login:

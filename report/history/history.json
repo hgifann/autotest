@@ -46,6 +46,67 @@
       }
     } ]
   },
+  "c000e0f6f58166922217bb5f8f17c965" : {
+    "statistic" : {
+      "failed" : 9,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 10
+    },
+    "items" : [ {
+      "uid" : "27fe97bbb3d8f279",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/43/allure/#testresult/27fe97bbb3d8f279",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'err_code'",
+      "time" : {
+        "start" : 1572851995389,
+        "stop" : 1572851995390,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "41b9235513cbb75",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/42/allure/#testresult/41b9235513cbb75",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+      "time" : {
+        "start" : 1572832650632,
+        "stop" : 1572832650632,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "42a545659a1c63eb",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/41/allure/#testresult/42a545659a1c63eb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+      "time" : {
+        "start" : 1572832574258,
+        "stop" : 1572832574258,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c42c30b109e5fe4",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/40/allure/#testresult/c42c30b109e5fe4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+      "time" : {
+        "start" : 1572832491153,
+        "stop" : 1572832491153,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e0f16a2a501b93e8",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/39/allure/#testresult/e0f16a2a501b93e8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+      "time" : {
+        "start" : 1572832216671,
+        "stop" : 1572832216671,
+        "duration" : 0
+      }
+    } ]
+  },
   "f8acef067b211d798496c268b6fcd195" : {
     "statistic" : {
       "failed" : 0,
@@ -716,6 +777,67 @@
       }
     } ]
   },
+  "47d105b6c73294e41d333681eac87173" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 9,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 10
+    },
+    "items" : [ {
+      "uid" : "2145bcd88c5e025e",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/43/allure/#testresult/2145bcd88c5e025e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+      "time" : {
+        "start" : 1572851995220,
+        "stop" : 1572851995220,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "24138fb967d02930",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/42/allure/#testresult/24138fb967d02930",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'err_code'",
+      "time" : {
+        "start" : 1572832650513,
+        "stop" : 1572832650513,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1c7e87a0f6c3bcd1",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/41/allure/#testresult/1c7e87a0f6c3bcd1",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'err_code'",
+      "time" : {
+        "start" : 1572832574155,
+        "stop" : 1572832574155,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "706703155e274be4",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/40/allure/#testresult/706703155e274be4",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'err_code'",
+      "time" : {
+        "start" : 1572832491053,
+        "stop" : 1572832491053,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3c2bed5fe51e63fc",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/39/allure/#testresult/3c2bed5fe51e63fc",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'err_code'",
+      "time" : {
+        "start" : 1572832216577,
+        "stop" : 1572832216577,
+        "duration" : 0
+      }
+    } ]
+  },
   "abca24803123c9ea822829c26d740236" : {
     "statistic" : {
       "failed" : 0,
@@ -760,6 +882,54 @@
         "start" : 1572312404302,
         "stop" : 1572312404454,
         "duration" : 152
+      }
+    } ]
+  },
+  "5c9ae4d1fdf841dfd5a12f089c63c1a8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "90fb63fea8a5a4ad",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/42/allure/#testresult/90fb63fea8a5a4ad",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+      "time" : {
+        "start" : 1572832651068,
+        "stop" : 1572832651068,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f9940366f01abd29",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/41/allure/#testresult/f9940366f01abd29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1572832575000,
+        "stop" : 1572832575186,
+        "duration" : 186
+      }
+    }, {
+      "uid" : "5273f92c4e0b52b0",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/39/allure/#testresult/5273f92c4e0b52b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1572831946475,
+        "stop" : 1572831946652,
+        "duration" : 177
+      }
+    }, {
+      "uid" : "1bc7e8cab4b4ea05",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/38/allure/#testresult/1bc7e8cab4b4ea05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1572831946475,
+        "stop" : 1572831946652,
+        "duration" : 177
       }
     } ]
   },
@@ -1249,6 +1419,26 @@
       }
     } ]
   },
+  "3d54ee1230d114ae9074f5a9f918481f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc580c48d0794293",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/42/allure/#testresult/cc580c48d0794293",
+      "status" : "passed",
+      "time" : {
+        "start" : 1572832651367,
+        "stop" : 1572832651511,
+        "duration" : 144
+      }
+    } ]
+  },
   "71b0d77bc5961f0fabd89f779825534c" : {
     "statistic" : {
       "failed" : 0,
@@ -1582,6 +1772,67 @@
       }
     } ]
   },
+  "63cb361581b020a32f11affe9ef03a29" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 10,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 10
+    },
+    "items" : [ {
+      "uid" : "e0cd5136b09125a2",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/43/allure/#testresult/e0cd5136b09125a2",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'err_code'",
+      "time" : {
+        "start" : 1572851994972,
+        "stop" : 1572851994972,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c8eb1ac302ee9104",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/42/allure/#testresult/c8eb1ac302ee9104",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'err_code'",
+      "time" : {
+        "start" : 1572832650367,
+        "stop" : 1572832650367,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "36b3218c421fc3be",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/41/allure/#testresult/36b3218c421fc3be",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'err_code'",
+      "time" : {
+        "start" : 1572832573996,
+        "stop" : 1572832573996,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "89ab4c7cf7ba5544",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/40/allure/#testresult/89ab4c7cf7ba5544",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'err_code'",
+      "time" : {
+        "start" : 1572832490914,
+        "stop" : 1572832490914,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a360ab4213527ffb",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/39/allure/#testresult/a360ab4213527ffb",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'err_code'",
+      "time" : {
+        "start" : 1572832216435,
+        "stop" : 1572832216435,
+        "duration" : 0
+      }
+    } ]
+  },
   "37bf7fe3d9964138d89739ccdcbb43e1" : {
     "statistic" : {
       "failed" : 0,
@@ -1723,6 +1974,65 @@
       }
     } ]
   },
+  "520f413af3f33f10c20e70bb68483de1" : {
+    "statistic" : {
+      "failed" : 8,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 10
+    },
+    "items" : [ {
+      "uid" : "e1712a4ebea231c2",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/43/allure/#testresult/e1712a4ebea231c2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+      "time" : {
+        "start" : 1572851995506,
+        "stop" : 1572851995506,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "60845a97ec5e7322",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/42/allure/#testresult/60845a97ec5e7322",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+      "time" : {
+        "start" : 1572832650779,
+        "stop" : 1572832650779,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "60992478af3f1150",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/41/allure/#testresult/60992478af3f1150",
+      "status" : "passed",
+      "time" : {
+        "start" : 1572832574526,
+        "stop" : 1572832574691,
+        "duration" : 165
+      }
+    }, {
+      "uid" : "5c0233efbc0c92f",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/40/allure/#testresult/5c0233efbc0c92f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+      "time" : {
+        "start" : 1572832491311,
+        "stop" : 1572832491311,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ba420ce815ec4dd8",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/39/allure/#testresult/ba420ce815ec4dd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1572832216971,
+        "stop" : 1572832217160,
+        "duration" : 189
+      }
+    } ]
+  },
   "f1802bbb0cfcd2abab8c3736acae47e7" : {
     "statistic" : {
       "failed" : 0,
@@ -1861,6 +2171,67 @@
         "start" : 1572312405015,
         "stop" : 1572312405180,
         "duration" : 165
+      }
+    } ]
+  },
+  "dab14ef56dc8835a1867bbeb76fa3768" : {
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "626df63e92da61d0",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/43/allure/#testresult/626df63e92da61d0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+      "time" : {
+        "start" : 1572851995663,
+        "stop" : 1572851995663,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6e21aa7ac776d10",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/42/allure/#testresult/6e21aa7ac776d10",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+      "time" : {
+        "start" : 1572832650919,
+        "stop" : 1572832650919,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "aa2776361b98ed45",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/41/allure/#testresult/aa2776361b98ed45",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+      "time" : {
+        "start" : 1572832574706,
+        "stop" : 1572832574706,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "45c38b188f6e07f0",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/40/allure/#testresult/45c38b188f6e07f0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+      "time" : {
+        "start" : 1572832491459,
+        "stop" : 1572832491459,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6e5ab12eb706e109",
+      "reportUrl" : "http://localhost:8080/jenkins/job/autotest/39/allure/#testresult/6e5ab12eb706e109",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+      "time" : {
+        "start" : 1572832217162,
+        "stop" : 1572832217162,
+        "duration" : 0
       }
     } ]
   },

@@ -1,0 +1,146 @@
+{
+  "uid" : "1e62ef61c3f44853",
+  "name" : "test_checklogin[test_register2]",
+  "fullName" : "test_regandlogin#test_checklogin",
+  "historyId" : "c000e0f6f58166922217bb5f8f17c965",
+  "time" : {
+    "start" : 1572852082036,
+    "stop" : 1572852082036,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'err_code'",
+  "statusTrace" : "request = <SubRequest 'test_register' for <Function test_checklogin[test_register2]>>\n\n    @pytest.fixture(params=excelinfo)\n    def test_register(request):\n        ss=request.param\n        url=ss[0]\n        register_service=ss[1]\n        login_service=ss[2]\n        username=ss[3]\n        password=ss[4]\n        payload = {'service':ss[1],'username':ss[3],'password':ss[4],'is_allow_many':\"1\",'app_key':\"784DBD349CE644ABD3684A562C159585\"}\n        login=src.test.common.testrequest.TestRequest()\n        s=login.checkmethord(\"get\",ss[0],payload)\n>       err_code=s[\"data\"][\"err_code\"]\nE       KeyError: 'err_code'\n\ntest_regandlogin.py:25: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_register",
+    "time" : {
+      "start" : 1572852082037,
+      "stop" : 1572852082131,
+      "duration" : 94
+    },
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'err_code'\n",
+    "statusTrace" : "  File \"C:\\Users\\THTF\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python37\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"C:\\Users\\THTF\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python37\\site-packages\\_pytest\\fixtures.py\", line 949, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"C:\\Users\\THTF\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python37\\site-packages\\_pytest\\fixtures.py\", line 779, in call_fixture_func\n    res = fixturefunc(**kwargs)\n  File \"C:\\Users\\THTF\\PycharmProjects\\autotest\\src\\test\\case\\test_regandlogin.py\", line 25, in test_register\n    err_code=s[\"data\"][\"err_code\"]\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_regandlogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4A0JR1L"
+  }, {
+    "name" : "thread",
+    "value" : "17636-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_regandlogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_register",
+    "value" : "['http://hn216.api.yesapi.cn/', 'App.User.Register', 'App.User.Login', 'autotest201', '174b086fc6358db6154bd951a8947837111111']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "65ea94ec6841e31",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'err_code'",
+      "time" : {
+        "start" : 1572851995389,
+        "stop" : 1572851995390,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 9,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "27fe97bbb3d8f279",
+        "reportUrl" : "http://localhost:8080/jenkins/job/autotest/43/allure/#testresult/27fe97bbb3d8f279",
+        "status" : "broken",
+        "statusDetails" : "KeyError: 'err_code'",
+        "time" : {
+          "start" : 1572851995389,
+          "stop" : 1572851995390,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "41b9235513cbb75",
+        "reportUrl" : "http://localhost:8080/jenkins/job/autotest/42/allure/#testresult/41b9235513cbb75",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+        "time" : {
+          "start" : 1572832650632,
+          "stop" : 1572832650632,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "42a545659a1c63eb",
+        "reportUrl" : "http://localhost:8080/jenkins/job/autotest/41/allure/#testresult/42a545659a1c63eb",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+        "time" : {
+          "start" : 1572832574258,
+          "stop" : 1572832574258,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c42c30b109e5fe4",
+        "reportUrl" : "http://localhost:8080/jenkins/job/autotest/40/allure/#testresult/c42c30b109e5fe4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+        "time" : {
+          "start" : 1572832491153,
+          "stop" : 1572832491153,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e0f16a2a501b93e8",
+        "reportUrl" : "http://localhost:8080/jenkins/job/autotest/39/allure/#testresult/e0f16a2a501b93e8",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+        "time" : {
+          "start" : 1572832216671,
+          "stop" : 1572832216671,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1e62ef61c3f44853.json",
+  "parameterValues" : [ "['http://hn216.api.yesapi.cn/', 'App.User.Register', 'App.User.Login', 'autotest201', '174b086fc6358db6154bd951a8947837111111']" ]
+}

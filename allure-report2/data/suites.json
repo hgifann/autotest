@@ -1,0 +1,87 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_regandlogin",
+    "children" : [ {
+      "name" : "test_checklogin[test_register0]",
+      "uid" : "b58f4361c44a98e",
+      "parentUid" : "68b2e04a4dcaabbc155f91e2e28f3822",
+      "status" : "broken",
+      "time" : {
+        "start" : 1572852081648,
+        "stop" : 1572852081648,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['http://hn216.api.yesapi.cn/', 'App.User.Register', 'App.User.Login', '', '174b086fc6358db6154bd951a8947837']" ]
+    }, {
+      "name" : "test_checklogin[test_register1]",
+      "uid" : "63fd6011870672f6",
+      "parentUid" : "68b2e04a4dcaabbc155f91e2e28f3822",
+      "status" : "failed",
+      "time" : {
+        "start" : 1572852081859,
+        "stop" : 1572852081860,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['http://hn216.api.yesapi.cn/', 'App.User.Register', 'App.User.Login', 'autotest206', '174b086fc6358db6154bd951a8947837']" ]
+    }, {
+      "name" : "test_checklogin[test_register2]",
+      "uid" : "1e62ef61c3f44853",
+      "parentUid" : "68b2e04a4dcaabbc155f91e2e28f3822",
+      "status" : "broken",
+      "time" : {
+        "start" : 1572852082036,
+        "stop" : 1572852082036,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['http://hn216.api.yesapi.cn/', 'App.User.Register', 'App.User.Login', 'autotest201', '174b086fc6358db6154bd951a8947837111111']" ]
+    }, {
+      "name" : "test_checklogin[test_register3]",
+      "uid" : "bac95367a5e03ad3",
+      "parentUid" : "68b2e04a4dcaabbc155f91e2e28f3822",
+      "status" : "failed",
+      "time" : {
+        "start" : 1572852082149,
+        "stop" : 1572852082149,
+        "duration" : 0
+      },
+      "flaky" : true,
+      "newFailed" : false,
+      "parameters" : [ "['http://hn216.api.yesapi.cn/', 'App.User.Register', 'App.User.Login', 'autotest520', '174b086fc6358db6154bd951a8947837']" ]
+    }, {
+      "name" : "test_checklogin[test_register4]",
+      "uid" : "fa085a45f12d6542",
+      "parentUid" : "68b2e04a4dcaabbc155f91e2e28f3822",
+      "status" : "failed",
+      "time" : {
+        "start" : 1572852082313,
+        "stop" : 1572852082313,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['http://hn216.api.yesapi.cn/', 'App.User.Register', 'App.User.Login', 'autotest521', '174b086fc6358db6154bd951a8947837']" ]
+    }, {
+      "name" : "test_checklogin[test_register5]",
+      "uid" : "e4655118b1b9934d",
+      "parentUid" : "68b2e04a4dcaabbc155f91e2e28f3822",
+      "status" : "passed",
+      "time" : {
+        "start" : 1572852082602,
+        "stop" : 1572852082774,
+        "duration" : 172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['http://hn216.api.yesapi.cn/', 'App.User.Register', 'App.User.Login', 'autotest522', '174b086fc6358db6154bd951a8947837']" ]
+    } ],
+    "uid" : "68b2e04a4dcaabbc155f91e2e28f3822"
+  } ]
+}

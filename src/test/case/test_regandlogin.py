@@ -7,7 +7,7 @@ import src.utils.testjson1
 import pytest
 import json
 import src.test.common.testrequest
-filename=r"C:\Users\THTF\PycharmProjects\autotest5\data\registerandlogin.xlsx"
+filename=r"C:\Users\THTF\PycharmProjects\autotest\data\registerandlogin.xlsx"
 excelinfo=src.utils.testjson1.Read_excel().read_excel(filename)
 
 # =======================

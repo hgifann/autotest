@@ -1,1 +1,0 @@
-{"ret":200,"data":{"err_code":0,"err_msg":"","uuid":"039D1C2BA2531583E2960A3042C30879"},"msg":"当前小白接口：App.User.Register"}

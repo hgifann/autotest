@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Mon Nov 04 15:21:22 CST 2019","Mon Nov 04 15:21:22 CST 2019","0","","test_regandlogin","","","","test_checklogin[test_register2]",""
+"failed","Mon Nov 04 15:21:22 CST 2019","Mon Nov 04 15:21:22 CST 2019","0","","test_regandlogin","","","","test_checklogin[test_register4]",""
+"failed","Mon Nov 04 15:21:22 CST 2019","Mon Nov 04 15:21:22 CST 2019","0","","test_regandlogin","","","","test_checklogin[test_register3]",""
+"broken","Mon Nov 04 15:21:21 CST 2019","Mon Nov 04 15:21:21 CST 2019","0","","test_regandlogin","","","","test_checklogin[test_register0]",""
+"passed","Mon Nov 04 15:21:22 CST 2019","Mon Nov 04 15:21:22 CST 2019","172","","test_regandlogin","","","","test_checklogin[test_register5]",""
+"failed","Mon Nov 04 15:21:21 CST 2019","Mon Nov 04 15:21:21 CST 2019","1","","test_regandlogin","","","","test_checklogin[test_register1]",""

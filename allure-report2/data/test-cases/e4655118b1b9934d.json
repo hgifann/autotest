@@ -1,0 +1,116 @@
+{
+  "uid" : "e4655118b1b9934d",
+  "name" : "test_checklogin[test_register5]",
+  "fullName" : "test_regandlogin#test_checklogin",
+  "historyId" : "5c9ae4d1fdf841dfd5a12f089c63c1a8",
+  "time" : {
+    "start" : 1572852082602,
+    "stop" : 1572852082774,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_register",
+    "time" : {
+      "start" : 1572852082483,
+      "stop" : 1572852082601,
+      "duration" : 118
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_regandlogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4A0JR1L"
+  }, {
+    "name" : "thread",
+    "value" : "17636-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_regandlogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_register",
+    "value" : "['http://hn216.api.yesapi.cn/', 'App.User.Register', 'App.User.Login', 'autotest522', '174b086fc6358db6154bd951a8947837']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "90fb63fea8a5a4ad",
+        "reportUrl" : "http://localhost:8080/jenkins/job/autotest/42/allure/#testresult/90fb63fea8a5a4ad",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 1 == 0\n  -1\n  +0",
+        "time" : {
+          "start" : 1572832651068,
+          "stop" : 1572832651068,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f9940366f01abd29",
+        "reportUrl" : "http://localhost:8080/jenkins/job/autotest/41/allure/#testresult/f9940366f01abd29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1572832575000,
+          "stop" : 1572832575186,
+          "duration" : 186
+        }
+      }, {
+        "uid" : "5273f92c4e0b52b0",
+        "reportUrl" : "http://localhost:8080/jenkins/job/autotest/39/allure/#testresult/5273f92c4e0b52b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1572831946475,
+          "stop" : 1572831946652,
+          "duration" : 177
+        }
+      }, {
+        "uid" : "1bc7e8cab4b4ea05",
+        "reportUrl" : "http://localhost:8080/jenkins/job/autotest/38/allure/#testresult/1bc7e8cab4b4ea05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1572831946475,
+          "stop" : 1572831946652,
+          "duration" : 177
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e4655118b1b9934d.json",
+  "parameterValues" : [ "['http://hn216.api.yesapi.cn/', 'App.User.Register', 'App.User.Login', 'autotest522', '174b086fc6358db6154bd951a8947837']" ]
+}

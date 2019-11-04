@@ -4,7 +4,7 @@ __author__ = 'THTF'
 import xlrd
 
 
-filename=r'C:\Users\THTF\PycharmProjects\autotest4\data\test1.xlsx'
+filename=r'C:\Users\THTF\PycharmProjects\autotest\data\test1.xlsx'
 lista=[]
 
 
