@@ -1,0 +1,1 @@
+{"ret":200,"data":{"err_code":1,"err_msg":"用户已注册，不能重复注册","uuid":""},"msg":"当前小白接口：App.User.Register"}

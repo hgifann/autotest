@@ -1,0 +1,20 @@
+. test_login.py::Test_login::test_login[http://hn216.api.yesapi.cn/-App.User.Login-autotest15-174b086fc6358db6154bd951a8947837-1.0-784DBD349CE644ABD3684A562C159585]
+. test_login.py::Test_login::test_login[http://hn216.api.yesapi.cn/-App.User.Login-autotest10-174b086fc6358db6154bd951a8947837-1.0-784DBD349CE644ABD3684A562C159585]
+F test_login.py::Test_login::test_login[http://hn216.api.yesapi.cn/-App.User.Login-autotest401-174b086fc6358db6154bd951a8947837-1.0-784DBD349CE644ABD3684A562C159585]
+ self = <src.test.case.test_login.Test_login object at 0x000001D1F8894088>, url = 'http://hn216.api.yesapi.cn/', service = 'App.User.Login'
+ username = 'autotest401', password = '174b086fc6358db6154bd951a8947837', is_allow_many = 1.0, app_key = '784DBD349CE644ABD3684A562C159585'
+ 
+     @pytest.mark.parametrize('url,service,username,password,is_allow_many,app_key',excelinfo)
+     def test_login(self,url,service,username,password,is_allow_many,app_key):
+     
+         login=src.test.common.login.Login()
+         # s=login.login(excelinfo['url'],excelinfo['service'],excelinfo['username'],excelinfo['password'],excelinfo['is_allow_many'],excelinfo['app_key'])
+         s=login.login(url,service,username,password,is_allow_many,app_key)
+         x=json.loads(s.text)
+         err_code=x["data"]["err_code"]
+ >       assert err_code  ==0
+ E       assert 1 == 0
+ E         -1
+ E         +0
+ 
+ test_login.py:25: AssertionError

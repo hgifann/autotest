@@ -1,0 +1,2 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:208 Starting new HTTP connection (1): hn216.api.yesapi.cn
+DEBUG    urllib3.connectionpool:connectionpool.py:396 http://hn216.api.yesapi.cn:80 "GET /?service=App.User.Login&username=autotest15&password=174b086fc6358db6154bd951a8947837&is_allow_many=1.0&app_key=784DBD349CE644ABD3684A562C159585 HTTP/1.1" 200 None
