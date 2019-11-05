@@ -6,10 +6,14 @@ import pytest
 import logging
 #以class调用方式  class类名必须以“Test_xxx"开头，才能识别
 
-filename=r"C:\Users\THTF\PycharmProjects\autotest\data\register.xlsx"
-excelinfo=src.utils.testjson1.Read_excel().read_excel(filename)
+# filename2=r"C:\Users\THTF\PycharmProjects\autotest\data\register.xlsx"
+# excelinfo=src.utils.testjson1.Read_excel().read_excel(filename2)
 
+
+# @pytest.fixture(scope="function")
 class Test_register:
+    filename=r"C:\Users\THTF\PycharmProjects\autotest\data\register.xlsx"
+    excelinfo=src.utils.testjson1.Read_excel().read_excel(filename)
     @pytest.mark.parametrize('url,service,username,password',excelinfo)
     def test_register(self,url,service,username,password):
 

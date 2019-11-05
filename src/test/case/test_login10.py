@@ -5,11 +5,15 @@ import json
 import pytest
 import logging
 #以class调用方式  class类名必须以“Test_xxx"开头，才能识别
-
-filename=r"C:\Users\THTF\PycharmProjects\autotest\data\login.xlsx"
-excelinfo=src.utils.testjson1.Read_excel().read_excel(filename)
+#
+# filename=r"C:\Users\THTF\PycharmProjects\autotest\data\login.xlsx"
+# excelinfo=src.utils.testjson1.Read_excel().read_excel(filename)
 
 class Test_login:
+
+    filename=r"C:\Users\THTF\PycharmProjects\autotest\data\login.xlsx"
+    excelinfo=src.utils.testjson1.Read_excel().read_excel(filename)
+
     @pytest.mark.parametrize('url,service,username,password',excelinfo)
     def test_login(self,url,service,username,password):
 
