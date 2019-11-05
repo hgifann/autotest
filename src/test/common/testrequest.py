@@ -42,13 +42,3 @@ class TestRequest():
         return res
 
 
-        # return json.dumps(res, ensure_ascii=False, indent=4, sort_keys=True)
-# a= TestRequest()
-# url="http://hn216.api.yesapi.cn/"
-# service="App.User.Check"
-# username="autotest15"
-# password="174b086fc6358db6154bd951a8947837"
-#
-# payload = {'service':service,'username':username,'password':password,'is_allow_many':"1",'app_key':"784DBD349CE644ABD3684A562C159585"}
-#
-# a.checkmethord("get",url,payload)

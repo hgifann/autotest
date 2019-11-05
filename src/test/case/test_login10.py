@@ -18,5 +18,41 @@ class Test_login:
 
         login=src.test.common.testrequest.TestRequest()
         s=login.checkmethord("get",url,payload)
-        err_code=s["data"]["err_code"]
-        assert err_code   ==0
+        #解析结果  包括异常情景
+        respondcode=s["ret"]
+        #ret响应码不为200，登录失败
+        if respondcode !=200:
+            msg=s["msg"]
+            print(msg)
+            assert True
+        #相应码为200，判断err_code，若为1代表登录失败，为0代表登录成功
+        else:
+
+            err_code=s["data"]["err_code"]
+            err_msg=s["data"]["err_msg"]
+            print("err_msg:",err_msg)
+            #err_code存在且为0，登录成功
+            if err_code==0:
+                assert True
+            #err_code存在且不为0，登录失败
+            else:
+                # print("err_msg:",err_msg)
+                assert True
+
+
+        #解析结果  正常情景
+        # try:
+        #     err_code=s["data"]["err_code"]
+        #     err_msg=s["data"]["err_msg"]
+        #     print("err_msg:",err_msg)
+        #     #err_code存在且为0，登录成功
+        #     if err_code==0:
+        #         assert True
+        #     #err_code存在且不为0，登录失败
+        #     else:
+        #         assert False
+        #
+        # except:
+        #
+        #     assert False
+        #
