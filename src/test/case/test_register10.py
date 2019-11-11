@@ -39,3 +39,7 @@ class Test_register:
             else:
                 # print("err_msg:",err_msg)
                 assert True
+
+if __name__=="__main__":
+    pytest.main
+
