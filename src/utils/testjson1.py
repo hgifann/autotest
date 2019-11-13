@@ -5,7 +5,7 @@ import xlrd
 
 
 filename=r'C:\Users\THTF\PycharmProjects\autotest\data\test1.xlsx'
-lista=[]
+# lista=[]
 
 
 class Read_excel():
@@ -51,6 +51,7 @@ class Read_excel():
         sheet = book.sheet_by_name('Sheet1')
         rows = sheet.nrows #获取行数
         # print(rows)
+        lista=[]
 
         cols = sheet.ncols #获取列数
         # print(rows,cols)
