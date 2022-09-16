@@ -29,7 +29,7 @@ importlib-metadata==0.23
 itsdangerous==0.24
 Jinja2==2.10
 lxml==4.4.1
-Mako==1.0.7
+Mako==1.2.2
 MarkupSafe==1.0
 more-itertools==7.2.0
 namedlist==1.7
